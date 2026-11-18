@@ -1,0 +1,10 @@
+.painel-container { max-width: 900px; margin: 24px auto; font-family: Arial, sans-serif; padding: 0 12px; }
+.subtitulo { color: #555; }
+.tabela-sensores { width: 100%; border-collapse: collapse; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+.tabela-sensores th { background: #1f2d2a; color: #fff; padding: 10px; text-align: left; }
+.tabela-sensores td { padding: 10px; border-bottom: 1px solid #eee; }
+.tabela-sensores tbody tr:nth-child(even) { background: #f4f7f6; }
+.badge { padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: bold; }
+.badge[data-status="Ideal"] { background: #d4edda; color: #1e7e34; }
+.badge[data-status="Alerta"] { background: #fff3cd; color: #946200; }
+.badge[data-status="Critico"] { background: #f8d7da; color: #b02a37; }
